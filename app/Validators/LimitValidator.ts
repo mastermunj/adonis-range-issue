@@ -15,7 +15,7 @@ export default class LimitValidator {
     ]),
   })
 
-  // public cacheKey = 'limit-validator'
+  public cacheKey = 'limit-validator'
 
   public messages = {
     'availableLimit.range':
