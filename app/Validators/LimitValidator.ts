@@ -1,9 +1,7 @@
 import { schema, rules } from '@ioc:Adonis/Core/Validator'
 
 export default class LimitValidator {
-  constructor(public data: Record<string, unknown>) {
-    console.log('Data', data)
-  }
+  constructor(public data: Record<string, unknown>) {}
 
   public refs = schema.refs(this.data)
 
